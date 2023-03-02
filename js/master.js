@@ -5,7 +5,7 @@ let handel;
 function backgroundChanger() {
   let c = 0;
   handel = setInterval(() => {
-    landing.style.backgroundImage = `url("imgs/0${(c %= 5)}.jpg"`;
+    landing.style.backgroundImage = `url("imgs/0${(c %= 5)}.jpg")`;
     c++;
   }, 9000);
 }
